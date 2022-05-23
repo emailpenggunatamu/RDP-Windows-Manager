@@ -85,7 +85,9 @@ namespace RdpWindowsManager.Forms
             Password = txtPassword.DefaultText,
             ToolTipText = txtDescription.DefaultText,
 
-            ForeColor = lbColor.ForeColor
+            ForeColor = lbColor.ForeColor,
+            ImageIndex = 1,
+            SelectedImageIndex = 1,
          };
 
          DialogResult = DialogResult.OK;

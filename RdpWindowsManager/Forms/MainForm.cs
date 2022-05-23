@@ -44,7 +44,7 @@ namespace RdpWindowsManager.Forms
       {
          ServerTreeNode serverNode = (ServerTreeNode)serverTreeView.SelectedNode;
 
-         if (serverNode.Parent == null)
+         if (serverNode == null && serverNode?.Parent == null)
          {
             return;
          }
@@ -64,12 +64,18 @@ namespace RdpWindowsManager.Forms
       {
          ServerTreeNode serverNode = (ServerTreeNode)serverTreeView.SelectedNode;
 
+         if (serverNode == null && serverNode?.Parent == null)
+         {
+            return;
+         }
+
          DialogResult dialogResult = MessageBox.Show(this, "Вы уверены что хотите удалить " + serverNode.Text,
             "Внимание", MessageBoxButtons.OKCancel);
 
-         if (serverNode != null && dialogResult == DialogResult.OK)
+         if (dialogResult == DialogResult.OK)
          {
             serverNode.Remove();
+            SaveServers();
          }
       }
 
@@ -94,9 +100,6 @@ namespace RdpWindowsManager.Forms
             serverTreeView.Nodes.Add(parent);
          }
 
-         serverNode.ImageIndex = 1;
-         serverNode.SelectedImageIndex = 1;
-
          parent.Nodes.Add(serverNode);
       }
 
@@ -115,21 +118,23 @@ namespace RdpWindowsManager.Forms
       {
          ServerTreeNode serverNode = (ServerTreeNode)serverTreeView.SelectedNode;
 
-         if (serverNode.Parent != null)
+         if (serverNode == null && serverNode?.Parent == null)
          {
-            TabPage tabPage = new TabPage(serverNode.Text)
-            {
-               BackColor = Color.FromArgb(53, 59, 72)
-            };
-
-            RdpClient rdpClient = new RdpClient(_sizeClient, tabPage);
-            rdpClient.Initialize();
-            rdpClient.ClientDisconnected += (message) => MessageBox.Show(message);
-            rdpClient.Conntect(serverNode.Host, serverNode.Username, serverNode.Password, serverNode.Port);
-
-            tabControl.TabPages.Add(tabPage);
-            tabControl.SelectedTab = tabPage;
+            return;
          }
+
+         TabPage tabPage = new TabPage(serverNode.Text)
+         {
+            BackColor = Color.FromArgb(53, 59, 72)
+         };
+
+         RdpClient rdpClient = new RdpClient(_sizeClient, tabPage);
+         rdpClient.Initialize();
+         rdpClient.ClientDisconnected += (message) => MessageBox.Show(message);
+         rdpClient.Conntect(serverNode.Host, serverNode.Username, serverNode.Password, serverNode.Port);
+
+         tabControl.TabPages.Add(tabPage);
+         tabControl.SelectedTab = tabPage;
       }
 
       private void SaveServers()

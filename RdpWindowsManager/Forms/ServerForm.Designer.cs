@@ -144,7 +144,7 @@
          this.label10.AutoSize = true;
          this.label10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
          this.label10.ForeColor = System.Drawing.Color.LightGray;
-         this.label10.Location = new System.Drawing.Point(307, 80);
+         this.label10.Location = new System.Drawing.Point(306, 77);
          this.label10.Name = "label10";
          this.label10.Size = new System.Drawing.Size(93, 17);
          this.label10.TabIndex = 41;
@@ -160,7 +160,7 @@
          this.txtDescription.ForeColor = System.Drawing.Color.Gainsboro;
          this.txtDescription.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
          this.txtDescription.HoverState.BorderSize = 1;
-         this.txtDescription.Location = new System.Drawing.Point(310, 101);
+         this.txtDescription.Location = new System.Drawing.Point(309, 98);
          this.txtDescription.Margin = new System.Windows.Forms.Padding(4);
          this.txtDescription.Multiline = false;
          this.txtDescription.Name = "txtDescription";
@@ -176,7 +176,7 @@
          this.lbColor.AutoSize = true;
          this.lbColor.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
          this.lbColor.ForeColor = System.Drawing.Color.LightGray;
-         this.lbColor.Location = new System.Drawing.Point(526, 13);
+         this.lbColor.Location = new System.Drawing.Point(525, 13);
          this.lbColor.Name = "lbColor";
          this.lbColor.Size = new System.Drawing.Size(56, 17);
          this.lbColor.TabIndex = 39;
@@ -187,7 +187,7 @@
          this.label8.AutoSize = true;
          this.label8.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
          this.label8.ForeColor = System.Drawing.Color.LightGray;
-         this.label8.Location = new System.Drawing.Point(307, 13);
+         this.label8.Location = new System.Drawing.Point(306, 13);
          this.label8.Name = "label8";
          this.label8.Size = new System.Drawing.Size(181, 17);
          this.label8.TabIndex = 38;
@@ -199,7 +199,7 @@
          this.btColor.FlatAppearance.BorderSize = 0;
          this.btColor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
          this.btColor.ForeColor = System.Drawing.Color.LightGray;
-         this.btColor.Location = new System.Drawing.Point(310, 34);
+         this.btColor.Location = new System.Drawing.Point(309, 34);
          this.btColor.Name = "btColor";
          this.btColor.Size = new System.Drawing.Size(272, 27);
          this.btColor.TabIndex = 37;
