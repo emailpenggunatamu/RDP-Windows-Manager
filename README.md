@@ -8,4 +8,4 @@
 
 ### Пример:
 
-![preview](Image/preview.png)
+![preview](https://github.com/Rynte/RynteAssets/blob/main/Assets/preview.png)
