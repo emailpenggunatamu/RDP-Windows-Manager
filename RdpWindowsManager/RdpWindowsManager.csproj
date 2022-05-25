@@ -37,7 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Rynte.WinForms.Controls">
-      <HintPath>..\..\GitHub\Rynte.Controls\Rynte.WinForms.Controls\bin\Debug\Rynte.WinForms.Controls.dll</HintPath>
+      <HintPath>..\..\Rynte.Controls\Rynte.WinForms.Controls\bin\Debug\Rynte.WinForms.Controls.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
