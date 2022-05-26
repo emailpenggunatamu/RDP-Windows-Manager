@@ -1,6 +1,6 @@
 ### RDP Windows Manager
 
-![Flutter](https://img.shields.io/badge/CSharp-Windows_Forms-404040) ![Flutter](https://img.shields.io/badge/CSharp-NET._Framework_4.8-404040) ![Flutter](https://img.shields.io/badge/CSharp-Test_Version_2.0-404040)
+![Flutter](https://img.shields.io/badge/CSharp-Windows_Forms-404040?style=for-the-badge&logo=CSharp) ![Flutter](https://img.shields.io/badge/CSharp-NET._Framework_4.8-404040) ![Flutter](https://img.shields.io/badge/CSharp-Test_Version_2.0-404040)
 
 #### About:
 A program created based on the standard Windows control. 
