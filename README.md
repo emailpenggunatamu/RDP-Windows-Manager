@@ -1,6 +1,6 @@
 ### RDP Windows Manager
 
-![Flutter](https://img.shields.io/badge/-Windows_Forms-404040?style=for-the-badge&logo=c%252b%252b&logoColor=159BE1) ![Flutter](https://img.shields.io/badge/-NET._Framework_4.8-404040?style=for-the-badge&logo=с&logoColor=159BE1)
+![Flutter](https://img.shields.io/badge/-Windows_Forms-404040?style=for-the-badge&logo=c%2b%2b&logoColor=159BE1) ![Flutter](https://img.shields.io/badge/-NET._Framework_4.8-404040?style=for-the-badge&logo=с&logoColor=159BE1)
 
 #### About:
 A program created based on the standard Windows control. 
