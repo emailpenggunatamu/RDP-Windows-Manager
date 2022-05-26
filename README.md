@@ -20,4 +20,4 @@ Allows you to open up to 10 or more simultaneous connections, as well as switch 
 * Added support for English language
 
 
-[![Download](https://img.shields.io/badge/Download_build_(v_2.0)-404040)(https://drive.google.com/file/d/1ETHZNJqZ4I39eA0QRxczfFul4F43PPHW/view?usp=sharing)]
+[![Download](https://img.shields.io/badge/Download_build_(v_2.0)-404040)](https://drive.google.com/file/d/1ETHZNJqZ4I39eA0QRxczfFul4F43PPHW/view?usp=sharing)
