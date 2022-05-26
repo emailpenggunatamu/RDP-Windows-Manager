@@ -128,7 +128,8 @@
     <value>192, 13</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>The color of the text in the explorer:</value>
+    <value>The color of the text in the explorer:
+</value>
   </data>
   <data name="btColor.Text" xml:space="preserve">
     <value>Select color</value>
@@ -147,9 +148,6 @@
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Description:</value>
-  </data>
-  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>282, 63</value>
   </data>
   <data name="btSave.Text" xml:space="preserve">
     <value>Save</value>

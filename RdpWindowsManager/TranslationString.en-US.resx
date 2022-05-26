@@ -130,7 +130,7 @@
     <value>Such a category name already exists</value>
   </data>
   <data name="Reboot" xml:space="preserve">
-    <value>In order for the action to take effect, you need to restart the application. Reboot now?</value>
+    <value>For the action to take effect, you must reload the application. Reboot now?</value>
   </data>
   <data name="ServerEmptyCategory" xml:space="preserve">
     <value>Select a category</value>

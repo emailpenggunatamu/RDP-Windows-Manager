@@ -124,20 +124,11 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Name server:</value>
   </data>
-  <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 27</value>
-  </data>
-  <data name="txtHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 27</value>
-  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 13</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Host:</value>
-  </data>
-  <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 27</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 13</value>
@@ -145,17 +136,11 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Port:</value>
   </data>
-  <data name="txtUsername.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 27</value>
-  </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 13</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Username:</value>
-  </data>
-  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 27</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>59, 13</value>
@@ -184,9 +169,6 @@
   <data name="label6.Text" xml:space="preserve">
     <value>The color of the text in the explorer:</value>
   </data>
-  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 27</value>
-  </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 13</value>
   </data>
@@ -195,9 +177,6 @@
   </data>
   <data name="btAddCategory.Text" xml:space="preserve">
     <value>Add</value>
-  </data>
-  <data name="txtNewCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 27</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 13</value>

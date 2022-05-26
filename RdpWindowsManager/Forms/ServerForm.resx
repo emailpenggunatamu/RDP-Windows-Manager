@@ -134,14 +134,14 @@
   <data name="&gt;&gt;label3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 11</value>
-  </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 13</value>
   </data>
-  <data name="&gt;&gt;btAddCategory.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btAddCategory.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -168,8 +168,8 @@
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>256, 11</value>
   </data>
-  <data name="txtNewCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
+    <value>txtPort</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -207,6 +207,9 @@
   <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 60</value>
   </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
   <data name="&gt;&gt;label8.Parent" xml:space="preserve">
     <value>pnCategory</value>
   </data>
@@ -243,6 +246,9 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ServerForm</value>
   </data>
+  <data name="&gt;&gt;btColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="label9.Text" xml:space="preserve">
     <value>Категории:</value>
   </data>
@@ -255,9 +261,6 @@
   <data name="txtUsername.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 138</value>
   </data>
-  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>2, 2</value>
-  </data>
   <data name="&gt;&gt;txtUsername.Name" xml:space="preserve">
     <value>txtUsername</value>
   </data>
@@ -265,13 +268,13 @@
     <value>168, 77</value>
   </data>
   <data name="txtNewCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 26</value>
+    <value>156, 27</value>
   </data>
   <data name="&gt;&gt;txtHost.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
   <data name="txtUsername.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 26</value>
+    <value>231, 27</value>
   </data>
   <data name="&gt;&gt;btAdd.Parent" xml:space="preserve">
     <value>$this</value>
@@ -294,17 +297,17 @@
   <data name="lbColor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label7.Text" xml:space="preserve">
-    <value>Описание:</value>
+  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
+    <value>colorDialog</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 11</value>
   </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 26</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Цвет в обозревателе:</value>
+  <data name="&gt;&gt;btAddCategory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -339,11 +342,17 @@
   <data name="&gt;&gt;pnCategory.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="btAddCategory.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+  <data name="txtPort.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="txtUsername.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 8.25pt</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Описание:</value>
   </data>
   <data name="&gt;&gt;txtPort.Type" xml:space="preserve">
     <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -351,11 +360,8 @@
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="lbColor.Text" xml:space="preserve">
-    <value>Пример</value>
-  </data>
-  <data name="&gt;&gt;txtPort.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="lbColor.Location" type="System.Drawing.Point, System.Drawing">
     <value>440, 12</value>
@@ -384,14 +390,17 @@
   <data name="btColor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 8.25pt</value>
+  <data name="txtDescription.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 6, 7, 6</value>
   </data>
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;btColor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="boxCategory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 25</value>
   </data>
   <data name="&gt;&gt;btAdd.ZOrder" xml:space="preserve">
     <value>6</value>
@@ -414,17 +423,20 @@
   <data name="&gt;&gt;txtHost.Name" xml:space="preserve">
     <value>txtHost</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>New Server</value>
+  <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 27</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
   </data>
   <data name="btAdd.Size" type="System.Drawing.Size, System.Drawing">
     <value>231, 26</value>
   </data>
-  <data name="&gt;&gt;txtNewCategory.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="txtDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 27</value>
   </data>
   <data name="txtHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 26</value>
+    <value>169, 27</value>
   </data>
   <data name="&gt;&gt;txtDescription.Parent" xml:space="preserve">
     <value>$this</value>
@@ -444,11 +456,17 @@
   <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btAdd.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txtNewCategory.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;pnCategory.Name" xml:space="preserve">
     <value>pnCategory</value>
+  </data>
+  <data name="&gt;&gt;txtNewCategory.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;label9.Parent" xml:space="preserve">
     <value>pnCategory</value>
@@ -459,11 +477,8 @@
   <data name="&gt;&gt;label5.Name" xml:space="preserve">
     <value>label5</value>
   </data>
-  <data name="&gt;&gt;txtPort.Name" xml:space="preserve">
-    <value>txtPort</value>
-  </data>
-  <data name="label8.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>16</value>
@@ -557,6 +572,9 @@
   <data name="label6.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lbColor.Text" xml:space="preserve">
+    <value>Пример</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>33, 13</value>
   </data>
@@ -564,7 +582,7 @@
     <value>$this</value>
   </data>
   <data name="txtName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 26</value>
+    <value>231, 27</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 121</value>
@@ -578,14 +596,11 @@
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
   </data>
   <data name="&gt;&gt;boxCategory.Parent" xml:space="preserve">
     <value>pnCategory</value>
-  </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -594,7 +609,7 @@
     <value>64, 13</value>
   </data>
   <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 26</value>
+    <value>231, 27</value>
   </data>
   <data name="btAdd.Text" xml:space="preserve">
     <value>Добавить сервер</value>
@@ -611,8 +626,8 @@
   <data name="&gt;&gt;txtUsername.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="boxCategory.Size" type="System.Drawing.Size, System.Drawing">
-    <value>231, 25</value>
+  <data name="boxCategory.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>256, 67</value>
@@ -620,8 +635,8 @@
   <data name="txtPort.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 13</value>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="pnCategory.Location" type="System.Drawing.Point, System.Drawing">
     <value>254, 119</value>
@@ -632,11 +647,11 @@
   <data name="&gt;&gt;txtHost.Type" xml:space="preserve">
     <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
-    <value>colorDialog</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>New Server</value>
   </data>
-  <data name="btAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 67</value>
@@ -646,9 +661,6 @@
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="txtPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 26</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 179</value>
@@ -665,8 +677,8 @@
   <data name="btAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 229</value>
   </data>
-  <data name="&gt;&gt;label7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txtPort.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 13</value>
@@ -676,9 +688,6 @@
   </data>
   <data name="&gt;&gt;txtPassword.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="txtDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;boxCategory.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -713,11 +722,8 @@
   <data name="&gt;&gt;lbColor.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="txtDescription.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>7, 6, 7, 6</value>
-  </data>
-  <data name="&gt;&gt;label9.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Цвет в обозревателе:</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -731,14 +737,11 @@
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 13</value>
   </data>
+  <data name="&gt;&gt;btAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 13</value>
-  </data>
-  <data name="txtPort.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="boxCategory.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9.75pt</value>
   </data>
   <data name="txtNewCategory.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -782,8 +785,8 @@
   <data name="boxCategory.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 20</value>
   </data>
-  <data name="&gt;&gt;btAdd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="btAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="txtUsername.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>7, 6, 7, 6</value>
@@ -809,11 +812,8 @@
   <data name="&gt;&gt;label9.Name" xml:space="preserve">
     <value>label9</value>
   </data>
-  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 13</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="txtDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 196</value>
