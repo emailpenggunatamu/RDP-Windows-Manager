@@ -2,7 +2,7 @@
 using System.Runtime.Serialization;
 using System.Windows.Forms;
 
-namespace RdpWindowsManager.Controls
+namespace RdpWindowsManager.Models
 {
    [Serializable]
    public class ServerTreeNode : TreeNode

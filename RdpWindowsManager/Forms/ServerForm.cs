@@ -1,50 +1,48 @@
-﻿using RdpWindowsManager.Controls;
+﻿using RdpWindowsManager.Models;
+using RdpWindowsManager.Properties;
 using Rynte.WinForms.Controls;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace RdpWindowsManager.Forms
 {
    public partial class ServerForm : Form
    {
-      public string Category { get; private set; }
-      public ServerTreeNode ServerTreeNode { get; private set; }
-
-      public ServerForm(IEnumerable<TreeNode> collection)
+      public ServerForm(IEnumerable<TreeNode> categoryes)
       {
+         if (!string.IsNullOrEmpty(Settings.Default.Language))
+         {
+            Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(Settings.Default.Language);
+         }
+
          InitializeComponent();
 
-         foreach (TreeNode item in collection)
+         foreach (TreeNode item in categoryes)
          {
             boxCategory.Items.Add(item.Text);
          }
       }
 
-      public void SetDataServerNode(ServerTreeNode serverNode)
+      public string Category { get; private set; }
+      public ServerTreeNode Server { get; private set; }
+
+      public void SetServer(ServerTreeNode server)
       {
-         txtName.DefaultText = serverNode.Text;
-         txtHost.DefaultText = serverNode.Host;
-         txtPort.DefaultText = serverNode.Port.ToString();
-         txtUsername.DefaultText = serverNode.Username;
-         txtPassword.DefaultText = serverNode.Password;
-         txtDescription.DefaultText = serverNode.ToolTipText;
+         txtName.DefaultText = server.Text;
+         txtHost.DefaultText = server.Host;
+         txtPort.DefaultText = server.Port.ToString();
+         txtUsername.DefaultText = server.Username;
+         txtPassword.DefaultText = server.Password;
 
-         lbColor.ForeColor = serverNode.ForeColor;
+         lbColor.ForeColor = server.ForeColor;
+         txtDescription.DefaultText = server.ToolTipText;
 
-         btAdd.Text = "Изменить";
          pnCategory.Visible = false;
-      }
-
-      private void TxtPort_KeyPress(object sender, KeyPressEventArgs e)
-      {
-         char number = e.KeyChar;
-
-         if (!char.IsDigit(number) && number != 8)
-         {
-            e.Handled = true;
-         }
+         btAdd.Text = TranslationString.ButtonServer;
       }
 
       private void BtColor_Click(object sender, EventArgs e)
@@ -57,26 +55,42 @@ namespace RdpWindowsManager.Forms
 
       private void BtAddCategory_Click(object sender, EventArgs e)
       {
-         string categoryName = txtCategory.DefaultText;
+         string name = txtNewCategory.DefaultText.Trim();
 
-         if (!string.IsNullOrEmpty(categoryName) && !boxCategory.Items.Contains(categoryName))
+         if (!string.IsNullOrEmpty(name) && !boxCategory.Items.Contains(name))
          {
-            boxCategory.Items.Add(categoryName);
-            boxCategory.SelectedItem = categoryName;
+            boxCategory.Items.Add(name);
+            boxCategory.SelectedItem = name;
 
-            txtCategory.DefaultText = "";
+            txtNewCategory.DefaultText = "";
+         }
+      }
+
+      private void TxtPort_KeyPress(object sender, KeyPressEventArgs e)
+      {
+         char number = e.KeyChar;
+
+         if (!char.IsDigit(number) && number != 8)
+         {
+            e.Handled = true;
          }
       }
 
       private void BtAdd_Click(object sender, EventArgs e)
       {
-         if (IsEmptyTextBoxes() || IsSelectCategory())
+         if (IsEmptyTextBox())
          {
-            MessageBox.Show(this, "Заполните все поля", "Ошибка");
+            MessageBox.Show(this, TranslationString.ServerEmptyLogin, TranslationString.Warning);
             return;
          }
 
-         ServerTreeNode = new ServerTreeNode()
+         if (IsSelectCategory())
+         {
+            MessageBox.Show(this, TranslationString.ServerEmptyCategory, TranslationString.Warning);
+            return;
+         }
+
+         Server = new ServerTreeNode()
          {
             Text = txtName.DefaultText,
             Host = txtHost.DefaultText,
@@ -93,16 +107,16 @@ namespace RdpWindowsManager.Forms
          DialogResult = DialogResult.OK;
       }
 
-      private bool IsEmptyTextBoxes()
+      private bool IsEmptyTextBox()
       {
-         foreach (RynteTextBox textBox in Controls.OfType<RynteTextBox>())
+         foreach (RynteTextBox item in Controls.OfType<RynteTextBox>())
          {
-            if (textBox.TabIndex == 7)
+            if (item.Name == txtNewCategory.Name)
             {
-               break;
+               continue;
             }
 
-            if (string.IsNullOrEmpty(textBox.DefaultText))
+            if (string.IsNullOrEmpty(item.DefaultText))
             {
                return true;
             }
@@ -121,7 +135,6 @@ namespace RdpWindowsManager.Forms
             }
 
             Category = boxCategory.SelectedItem.ToString();
-
             return false;
          }
 

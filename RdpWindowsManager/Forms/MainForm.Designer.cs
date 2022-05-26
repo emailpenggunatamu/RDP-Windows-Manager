@@ -30,246 +30,257 @@
       {
          this.components = new System.ComponentModel.Container();
          System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-         this.panel1 = new System.Windows.Forms.Panel();
-         this.btEdit = new System.Windows.Forms.Button();
-         this.btRemove = new System.Windows.Forms.Button();
-         this.btAdd = new System.Windows.Forms.Button();
+         this.pnButtons = new System.Windows.Forms.Panel();
+         this.btSetting = new System.Windows.Forms.Button();
+         this.btAddServer = new System.Windows.Forms.Button();
          this.btConnect = new System.Windows.Forms.Button();
-         this.panel4 = new System.Windows.Forms.Panel();
+         this.separator1 = new System.Windows.Forms.Panel();
+         this.pnExplorer = new System.Windows.Forms.Panel();
+         this.serverView = new Rynte.WinForms.Controls.RynteTreeView();
+         this.imageList = new System.Windows.Forms.ImageList(this.components);
          this.txtSearch = new Rynte.WinForms.Controls.RynteTextBox();
-         this.tabControl = new Rynte.WinForms.Controls.RynteTabControl();
-         this.panel3 = new System.Windows.Forms.Panel();
-         this.serverTreeView = new Rynte.WinForms.Controls.RynteTreeView();
-         this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-         this.panel2 = new System.Windows.Forms.Panel();
-         this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-         this.TabDisconnect = new System.Windows.Forms.ToolStripMenuItem();
-         this.panel1.SuspendLayout();
-         this.panel3.SuspendLayout();
-         this.contextMenuStrip1.SuspendLayout();
+         this.separator2 = new System.Windows.Forms.Panel();
+         this.menuCategory = new System.Windows.Forms.ContextMenuStrip(this.components);
+         this.btCategoryEdit = new System.Windows.Forms.ToolStripMenuItem();
+         this.btCategoryDelete = new System.Windows.Forms.ToolStripMenuItem();
+         this.menuServer = new System.Windows.Forms.ContextMenuStrip(this.components);
+         this.btServerConnect = new System.Windows.Forms.ToolStripMenuItem();
+         this.btServerEdit = new System.Windows.Forms.ToolStripMenuItem();
+         this.btServerDelete = new System.Windows.Forms.ToolStripMenuItem();
+         this.serverTabControl = new Rynte.WinForms.Controls.RynteTabControl();
+         this.tabPage1 = new System.Windows.Forms.TabPage();
+         this.pnButtons.SuspendLayout();
+         this.pnExplorer.SuspendLayout();
+         this.menuCategory.SuspendLayout();
+         this.menuServer.SuspendLayout();
+         this.serverTabControl.SuspendLayout();
          this.SuspendLayout();
          // 
-         // panel1
+         // pnButtons
          // 
-         this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
-         this.panel1.Controls.Add(this.btEdit);
-         this.panel1.Controls.Add(this.btRemove);
-         this.panel1.Controls.Add(this.btAdd);
-         this.panel1.Controls.Add(this.btConnect);
-         this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-         this.panel1.ForeColor = System.Drawing.Color.Gainsboro;
-         this.panel1.Location = new System.Drawing.Point(0, 0);
-         this.panel1.Name = "panel1";
-         this.panel1.Size = new System.Drawing.Size(800, 30);
-         this.panel1.TabIndex = 6;
+         this.pnButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+         this.pnButtons.Controls.Add(this.btSetting);
+         this.pnButtons.Controls.Add(this.btAddServer);
+         this.pnButtons.Controls.Add(this.btConnect);
+         resources.ApplyResources(this.pnButtons, "pnButtons");
+         this.pnButtons.Name = "pnButtons";
          // 
-         // btEdit
+         // btSetting
          // 
-         this.btEdit.FlatAppearance.BorderSize = 0;
-         this.btEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-         this.btEdit.Location = new System.Drawing.Point(240, 5);
-         this.btEdit.Name = "btEdit";
-         this.btEdit.Size = new System.Drawing.Size(94, 20);
-         this.btEdit.TabIndex = 4;
-         this.btEdit.TabStop = false;
-         this.btEdit.Text = "Редактировать";
-         this.btEdit.UseVisualStyleBackColor = true;
-         this.btEdit.Click += new System.EventHandler(this.BtEdit_Click);
+         this.btSetting.FlatAppearance.BorderSize = 0;
+         resources.ApplyResources(this.btSetting, "btSetting");
+         this.btSetting.Name = "btSetting";
+         this.btSetting.UseVisualStyleBackColor = true;
+         this.btSetting.Click += new System.EventHandler(this.BtSetting_Click);
          // 
-         // btRemove
+         // btAddServer
          // 
-         this.btRemove.FlatAppearance.BorderSize = 0;
-         this.btRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-         this.btRemove.Location = new System.Drawing.Point(177, 5);
-         this.btRemove.Name = "btRemove";
-         this.btRemove.Size = new System.Drawing.Size(57, 20);
-         this.btRemove.TabIndex = 3;
-         this.btRemove.TabStop = false;
-         this.btRemove.Text = "Удалить";
-         this.btRemove.UseVisualStyleBackColor = true;
-         this.btRemove.Click += new System.EventHandler(this.BtRemove_Click);
-         // 
-         // btAdd
-         // 
-         this.btAdd.FlatAppearance.BorderSize = 0;
-         this.btAdd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-         this.btAdd.Location = new System.Drawing.Point(104, 5);
-         this.btAdd.Name = "btAdd";
-         this.btAdd.Size = new System.Drawing.Size(67, 20);
-         this.btAdd.TabIndex = 2;
-         this.btAdd.TabStop = false;
-         this.btAdd.Text = "Добавить";
-         this.btAdd.UseVisualStyleBackColor = true;
-         this.btAdd.Click += new System.EventHandler(this.BtAdd_Click);
+         this.btAddServer.FlatAppearance.BorderSize = 0;
+         resources.ApplyResources(this.btAddServer, "btAddServer");
+         this.btAddServer.Name = "btAddServer";
+         this.btAddServer.UseVisualStyleBackColor = true;
+         this.btAddServer.Click += new System.EventHandler(this.BtAddServer_Click);
          // 
          // btConnect
          // 
          this.btConnect.FlatAppearance.BorderSize = 0;
-         this.btConnect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-         this.btConnect.Location = new System.Drawing.Point(5, 5);
+         resources.ApplyResources(this.btConnect, "btConnect");
          this.btConnect.Name = "btConnect";
-         this.btConnect.Size = new System.Drawing.Size(93, 20);
-         this.btConnect.TabIndex = 1;
-         this.btConnect.TabStop = false;
-         this.btConnect.Text = "Подключиться";
          this.btConnect.UseVisualStyleBackColor = true;
-         this.btConnect.Click += new System.EventHandler(this.BtConnect_Click);
+         this.btConnect.Click += new System.EventHandler(this.ConnectServer);
          // 
-         // panel4
+         // separator1
          // 
-         this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-         this.panel4.Dock = System.Windows.Forms.DockStyle.Left;
-         this.panel4.Location = new System.Drawing.Point(201, 31);
-         this.panel4.Name = "panel4";
-         this.panel4.Size = new System.Drawing.Size(1, 419);
-         this.panel4.TabIndex = 9;
+         this.separator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+         resources.ApplyResources(this.separator1, "separator1");
+         this.separator1.Name = "separator1";
+         // 
+         // pnExplorer
+         // 
+         this.pnExplorer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+         this.pnExplorer.Controls.Add(this.serverView);
+         this.pnExplorer.Controls.Add(this.txtSearch);
+         resources.ApplyResources(this.pnExplorer, "pnExplorer");
+         this.pnExplorer.Name = "pnExplorer";
+         // 
+         // serverView
+         // 
+         resources.ApplyResources(this.serverView, "serverView");
+         this.serverView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+         this.serverView.BorderStyle = System.Windows.Forms.BorderStyle.None;
+         this.serverView.DrawMode = System.Windows.Forms.TreeViewDrawMode.OwnerDrawText;
+         this.serverView.ForeColor = System.Drawing.Color.LightGray;
+         this.serverView.ImageList = this.imageList;
+         this.serverView.ItemHeight = 18;
+         this.serverView.LineColor = System.Drawing.Color.Gray;
+         this.serverView.Name = "serverView";
+         this.serverView.SelectFullRow = false;
+         this.serverView.SelectNodeBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(84)))), ((int)(((byte)(93)))));
+         this.serverView.SelectNodeForeColor = System.Drawing.Color.Gainsboro;
+         this.serverView.ShowNodeToolTips = true;
+         this.serverView.ShowRootLines = false;
+         this.serverView.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.ServerView_NodeMouseClick);
+         // 
+         // imageList
+         // 
+         this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+         this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+         this.imageList.Images.SetKeyName(0, "serverIcon.png");
+         this.imageList.Images.SetKeyName(1, "desktopIcon.png");
          // 
          // txtSearch
          // 
          this.txtSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
-         this.txtSearch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
+         this.txtSearch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
          this.txtSearch.BorderMode = Rynte.WinForms.Controls.Enums.BorderMode.Default;
-         this.txtSearch.BorderSize = 0;
+         this.txtSearch.BorderSize = 1;
          this.txtSearch.DefaultText = "";
-         this.txtSearch.Dock = System.Windows.Forms.DockStyle.Top;
-         this.txtSearch.ForeColor = System.Drawing.Color.Gainsboro;
+         resources.ApplyResources(this.txtSearch, "txtSearch");
+         this.txtSearch.ForeColor = System.Drawing.Color.LightGray;
          this.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
          this.txtSearch.HoverState.BorderSize = 1;
-         this.txtSearch.Location = new System.Drawing.Point(0, 0);
-         this.txtSearch.Margin = new System.Windows.Forms.Padding(4);
          this.txtSearch.Multiline = false;
          this.txtSearch.Name = "txtSearch";
-         this.txtSearch.Padding = new System.Windows.Forms.Padding(7, 6, 7, 6);
          this.txtSearch.PasswordChar = false;
          this.txtSearch.Placeholder = "Search...";
          this.txtSearch.ReadOnly = false;
-         this.txtSearch.Size = new System.Drawing.Size(201, 26);
-         this.txtSearch.TabIndex = 0;
-         this.txtSearch.DefaultTextChanged += new System.EventHandler(this.RynteTextBox1_DefaultTextChanged);
+         this.txtSearch.DefaultTextChanged += new System.EventHandler(this.TxtSearch_DefaultTextChanged);
          // 
-         // tabControl
+         // separator2
          // 
-         this.tabControl.BorderPageColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
-         this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
-         this.tabControl.HeaderBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
-         this.tabControl.ItemSize = new System.Drawing.Size(240, 16);
-         this.tabControl.Location = new System.Drawing.Point(201, 31);
-         this.tabControl.Name = "tabControl";
-         this.tabControl.SelectedIndex = 0;
-         this.tabControl.SelectTabColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
-         this.tabControl.SelectTextTabColor = System.Drawing.Color.White;
-         this.tabControl.Size = new System.Drawing.Size(599, 419);
-         this.tabControl.TabColor = System.Drawing.Color.Gray;
-         this.tabControl.TabIndex = 10;
-         this.tabControl.TextTabColor = System.Drawing.Color.White;
-         this.tabControl.MouseClick += new System.Windows.Forms.MouseEventHandler(this.TabControl_MouseClick);
+         this.separator2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+         resources.ApplyResources(this.separator2, "separator2");
+         this.separator2.Name = "separator2";
          // 
-         // panel3
+         // menuCategory
          // 
-         this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
-         this.panel3.Controls.Add(this.serverTreeView);
-         this.panel3.Controls.Add(this.txtSearch);
-         this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-         this.panel3.Location = new System.Drawing.Point(0, 31);
-         this.panel3.Name = "panel3";
-         this.panel3.Size = new System.Drawing.Size(201, 419);
-         this.panel3.TabIndex = 8;
+         this.menuCategory.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
+         resources.ApplyResources(this.menuCategory, "menuCategory");
+         this.menuCategory.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btCategoryEdit,
+            this.btCategoryDelete});
+         this.menuCategory.Name = "menuCategory";
+         this.menuCategory.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
          // 
-         // serverTreeView
+         // btCategoryEdit
          // 
-         this.serverTreeView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-         this.serverTreeView.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(54)))), ((int)(((byte)(64)))));
-         this.serverTreeView.BorderStyle = System.Windows.Forms.BorderStyle.None;
-         this.serverTreeView.DrawMode = System.Windows.Forms.TreeViewDrawMode.OwnerDrawText;
-         this.serverTreeView.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-         this.serverTreeView.ForeColor = System.Drawing.Color.LightGray;
-         this.serverTreeView.ImageIndex = 0;
-         this.serverTreeView.ImageList = this.imageList1;
-         this.serverTreeView.Indent = 15;
-         this.serverTreeView.ItemHeight = 18;
-         this.serverTreeView.LineColor = System.Drawing.Color.Gray;
-         this.serverTreeView.Location = new System.Drawing.Point(0, 34);
-         this.serverTreeView.Name = "serverTreeView";
-         this.serverTreeView.SelectedImageIndex = 0;
-         this.serverTreeView.SelectFullRow = false;
-         this.serverTreeView.SelectNodeBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(84)))), ((int)(((byte)(93)))));
-         this.serverTreeView.SelectNodeForeColor = System.Drawing.Color.Gainsboro;
-         this.serverTreeView.ShowNodeToolTips = true;
-         this.serverTreeView.ShowRootLines = false;
-         this.serverTreeView.Size = new System.Drawing.Size(201, 385);
-         this.serverTreeView.TabIndex = 0;
+         this.btCategoryEdit.ForeColor = System.Drawing.Color.Gainsboro;
+         this.btCategoryEdit.Image = global::RdpWindowsManager.Properties.Resources.editIcon;
+         this.btCategoryEdit.Name = "btCategoryEdit";
+         this.btCategoryEdit.Padding = new System.Windows.Forms.Padding(0);
+         resources.ApplyResources(this.btCategoryEdit, "btCategoryEdit");
+         this.btCategoryEdit.Click += new System.EventHandler(this.BtCategoryEdit_Click);
          // 
-         // imageList1
+         // btCategoryDelete
          // 
-         this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-         this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-         this.imageList1.Images.SetKeyName(0, "image0.bmp");
-         this.imageList1.Images.SetKeyName(1, "image1.bmp");
+         this.btCategoryDelete.ForeColor = System.Drawing.Color.Gainsboro;
+         this.btCategoryDelete.Image = global::RdpWindowsManager.Properties.Resources.deleteIcon;
+         this.btCategoryDelete.Name = "btCategoryDelete";
+         this.btCategoryDelete.Padding = new System.Windows.Forms.Padding(0);
+         resources.ApplyResources(this.btCategoryDelete, "btCategoryDelete");
+         this.btCategoryDelete.Click += new System.EventHandler(this.RemoveServerTreeNode);
          // 
-         // panel2
+         // menuServer
          // 
-         this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-         this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-         this.panel2.Location = new System.Drawing.Point(0, 30);
-         this.panel2.Name = "panel2";
-         this.panel2.Size = new System.Drawing.Size(800, 1);
-         this.panel2.TabIndex = 7;
+         this.menuServer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
+         resources.ApplyResources(this.menuServer, "menuServer");
+         this.menuServer.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btServerConnect,
+            this.btServerEdit,
+            this.btServerDelete});
+         this.menuServer.Name = "menuCategory";
+         this.menuServer.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
          // 
-         // contextMenuStrip1
+         // btServerConnect
          // 
-         this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.TabDisconnect});
-         this.contextMenuStrip1.Name = "contextMenuStrip1";
-         this.contextMenuStrip1.Size = new System.Drawing.Size(149, 26);
+         this.btServerConnect.ForeColor = System.Drawing.Color.Gainsboro;
+         this.btServerConnect.Image = global::RdpWindowsManager.Properties.Resources.connectIcon;
+         this.btServerConnect.Name = "btServerConnect";
+         this.btServerConnect.Padding = new System.Windows.Forms.Padding(0);
+         resources.ApplyResources(this.btServerConnect, "btServerConnect");
+         this.btServerConnect.Click += new System.EventHandler(this.ConnectServer);
          // 
-         // TabDisconnect
+         // btServerEdit
          // 
-         this.TabDisconnect.Name = "TabDisconnect";
-         this.TabDisconnect.Size = new System.Drawing.Size(148, 22);
-         this.TabDisconnect.Text = "Отключиться";
-         this.TabDisconnect.Click += new System.EventHandler(this.TabDisconnect_Click);
+         this.btServerEdit.ForeColor = System.Drawing.Color.Gainsboro;
+         this.btServerEdit.Image = global::RdpWindowsManager.Properties.Resources.editIcon;
+         this.btServerEdit.Name = "btServerEdit";
+         this.btServerEdit.Padding = new System.Windows.Forms.Padding(0);
+         resources.ApplyResources(this.btServerEdit, "btServerEdit");
+         this.btServerEdit.Click += new System.EventHandler(this.BtServerEdit_Click);
+         // 
+         // btServerDelete
+         // 
+         this.btServerDelete.ForeColor = System.Drawing.Color.Gainsboro;
+         this.btServerDelete.Image = global::RdpWindowsManager.Properties.Resources.deleteIcon;
+         this.btServerDelete.Name = "btServerDelete";
+         this.btServerDelete.Padding = new System.Windows.Forms.Padding(0);
+         resources.ApplyResources(this.btServerDelete, "btServerDelete");
+         this.btServerDelete.Click += new System.EventHandler(this.RemoveServerTreeNode);
+         // 
+         // serverTabControl
+         // 
+         this.serverTabControl.BorderPageColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
+         this.serverTabControl.Controls.Add(this.tabPage1);
+         resources.ApplyResources(this.serverTabControl, "serverTabControl");
+         this.serverTabControl.HeaderBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
+         this.serverTabControl.Name = "serverTabControl";
+         this.serverTabControl.SelectedIndex = 0;
+         this.serverTabControl.SelectTabColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
+         this.serverTabControl.SelectTextTabColor = System.Drawing.Color.White;
+         this.serverTabControl.TabColor = System.Drawing.Color.Gray;
+         this.serverTabControl.TextTabColor = System.Drawing.Color.White;
+         // 
+         // tabPage1
+         // 
+         this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
+         resources.ApplyResources(this.tabPage1, "tabPage1");
+         this.tabPage1.Name = "tabPage1";
          // 
          // MainForm
          // 
-         this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+         resources.ApplyResources(this, "$this");
          this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.BackColor = System.Drawing.Color.White;
-         this.ClientSize = new System.Drawing.Size(800, 450);
-         this.Controls.Add(this.panel4);
-         this.Controls.Add(this.tabControl);
-         this.Controls.Add(this.panel3);
-         this.Controls.Add(this.panel2);
-         this.Controls.Add(this.panel1);
-         this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-         this.ForeColor = System.Drawing.Color.Black;
-         this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+         this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
+         this.Controls.Add(this.serverTabControl);
+         this.Controls.Add(this.separator2);
+         this.Controls.Add(this.pnExplorer);
+         this.Controls.Add(this.separator1);
+         this.Controls.Add(this.pnButtons);
+         this.DoubleBuffered = true;
+         this.ForeColor = System.Drawing.Color.Gainsboro;
          this.Name = "MainForm";
-         this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-         this.Text = "RDP Windows Manager";
          this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
          this.Load += new System.EventHandler(this.MainForm_Load);
-         this.panel1.ResumeLayout(false);
-         this.panel3.ResumeLayout(false);
-         this.contextMenuStrip1.ResumeLayout(false);
+         this.pnButtons.ResumeLayout(false);
+         this.pnExplorer.ResumeLayout(false);
+         this.menuCategory.ResumeLayout(false);
+         this.menuServer.ResumeLayout(false);
+         this.serverTabControl.ResumeLayout(false);
          this.ResumeLayout(false);
 
       }
 
       #endregion
-      private System.Windows.Forms.Panel panel1;
-      private System.Windows.Forms.Button btEdit;
-      private System.Windows.Forms.Button btRemove;
-      private System.Windows.Forms.Button btAdd;
+
+      private System.Windows.Forms.Panel pnButtons;
+      private System.Windows.Forms.Button btSetting;
+      private System.Windows.Forms.Button btAddServer;
       private System.Windows.Forms.Button btConnect;
-      private System.Windows.Forms.Panel panel4;
+      private System.Windows.Forms.Panel separator1;
+      private System.Windows.Forms.Panel pnExplorer;
       private Rynte.WinForms.Controls.RynteTextBox txtSearch;
-      private Rynte.WinForms.Controls.RynteTabControl tabControl;
-      private System.Windows.Forms.Panel panel3;
-      private Rynte.WinForms.Controls.RynteTreeView serverTreeView;
-      private System.Windows.Forms.Panel panel2;
-      private System.Windows.Forms.ImageList imageList1;
-      private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-      private System.Windows.Forms.ToolStripMenuItem TabDisconnect;
+      private System.Windows.Forms.Panel separator2;
+      private System.Windows.Forms.ContextMenuStrip menuCategory;
+      private System.Windows.Forms.ToolStripMenuItem btCategoryEdit;
+      private System.Windows.Forms.ToolStripMenuItem btCategoryDelete;
+      private System.Windows.Forms.ContextMenuStrip menuServer;
+      private System.Windows.Forms.ToolStripMenuItem btServerConnect;
+      private System.Windows.Forms.ToolStripMenuItem btServerEdit;
+      private System.Windows.Forms.ToolStripMenuItem btServerDelete;
+      private Rynte.WinForms.Controls.RynteTreeView serverView;
+      private System.Windows.Forms.ImageList imageList;
+      private Rynte.WinForms.Controls.RynteTabControl serverTabControl;
+      private System.Windows.Forms.TabPage tabPage1;
    }
 }

@@ -117,17 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="addIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\addIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ButtonServer" xml:space="preserve">
+    <value>Изменить сервер</value>
   </data>
-  <data name="connectIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\connectIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Delete" xml:space="preserve">
+    <value>Вы уверены что хотите удалить:</value>
   </data>
-  <data name="deleteIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deleteIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NameEmptyCategory" xml:space="preserve">
+    <value>Имя не может быть пустым</value>
   </data>
-  <data name="editIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\editIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NameExistsCategory" xml:space="preserve">
+    <value>Такое имя категории уже существует</value>
+  </data>
+  <data name="Reboot" xml:space="preserve">
+    <value>Что бы действие вступило в силу, необходимо перезагрузить приложение. Перезагрузить сейчас?</value>
+  </data>
+  <data name="ServerEmptyCategory" xml:space="preserve">
+    <value>Выберите категорию</value>
+  </data>
+  <data name="ServerEmptyLogin" xml:space="preserve">
+    <value>Введите данные авторизации сервера</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Внимание</value>
   </data>
 </root>

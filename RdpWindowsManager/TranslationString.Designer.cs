@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RdpWindowsManager.Properties {
+namespace RdpWindowsManager {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace RdpWindowsManager.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    internal class TranslationString {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal TranslationString() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace RdpWindowsManager.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RdpWindowsManager.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("RdpWindowsManager.TranslationString", typeof(TranslationString).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,42 +61,74 @@ namespace RdpWindowsManager.Properties {
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Изменить сервер.
         /// </summary>
-        internal static System.Drawing.Bitmap addIcon {
+        internal static string ButtonServer {
             get {
-                object obj = ResourceManager.GetObject("addIcon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("ButtonServer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Вы уверены что хотите удалить:.
         /// </summary>
-        internal static System.Drawing.Bitmap connectIcon {
+        internal static string Delete {
             get {
-                object obj = ResourceManager.GetObject("connectIcon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("Delete", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Имя не может быть пустым.
         /// </summary>
-        internal static System.Drawing.Bitmap deleteIcon {
+        internal static string NameEmptyCategory {
             get {
-                object obj = ResourceManager.GetObject("deleteIcon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("NameEmptyCategory", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        ///   Ищет локализованную строку, похожую на Такое имя категории уже существует.
         /// </summary>
-        internal static System.Drawing.Bitmap editIcon {
+        internal static string NameExistsCategory {
             get {
-                object obj = ResourceManager.GetObject("editIcon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("NameExistsCategory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Что бы действие вступило в силу, необходимо перезагрузить приложение. Перезагрузить сейчас?.
+        /// </summary>
+        internal static string Reboot {
+            get {
+                return ResourceManager.GetString("Reboot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Выберите категорию.
+        /// </summary>
+        internal static string ServerEmptyCategory {
+            get {
+                return ResourceManager.GetString("ServerEmptyCategory", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Введите данные авторизации сервера.
+        /// </summary>
+        internal static string ServerEmptyLogin {
+            get {
+                return ResourceManager.GetString("ServerEmptyLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Внимание.
+        /// </summary>
+        internal static string Warning {
+            get {
+                return ResourceManager.GetString("Warning", resourceCulture);
             }
         }
     }

@@ -1,20 +1,21 @@
 ﻿using AxMSTSCLib;
 using MSTSCLib;
+using Rynte.WinForms.Controls;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
 
 namespace RdpWindowsManager.Controls
 {
-   public class RdpClient
+   public class RemoteClient
    {
       private readonly Size _size;
       private readonly TabPage _tabPage;
       private AxMsRdpClient6NotSafeForScripting _client;
 
-      public RdpClient(Size size, TabPage tabPage)
+      public RemoteClient(Size size, TabPage tabPage)
       {
-         _size = new Size(size.Width, size.Height - 25);
+         _size = size;
          _tabPage = tabPage;
       }
 
@@ -56,6 +57,8 @@ namespace RdpWindowsManager.Controls
          }
 
          _client?.Dispose();
+
+         ((RynteTabControl)_tabPage.Parent).SelectedTab = _tabPage;
          _tabPage.Dispose();
       }
 
