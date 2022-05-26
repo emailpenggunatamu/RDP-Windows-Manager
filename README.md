@@ -8,13 +8,13 @@ Allows you to open up to 10 or more simultaneous connections, as well as switch 
 
 ### Demo:
 
-![](Image/preview.png)
+![](Assets/preview.png)
 
 ### Update v2.0
 
 * Changed design (Remove/edit buttons) Moved to context menu (right-click server in explorer)
 
-![](Image/preview2.png)
+![](Assets/preview2.png)
 
 * Added possibility to edit category
 * Added support for English language
