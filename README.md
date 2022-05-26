@@ -1,6 +1,6 @@
 ### RDP Windows Manager
 
-![Flutter](https://img.shields.io/badge/-Windows_Forms-404040?style=for-the-badge&logo=c-sharp&logoColor=159BE1) ![Flutter](https://img.shields.io/badge/-NET._Framework_4.8-404040?style=for-the-badge&logo=c-sharp&logoColor=159BE1)
+![](https://img.shields.io/badge/-Windows_Forms-404040?style=for-the-badge&logo=c-sharp&logoColor=159BE1) ![](https://img.shields.io/badge/-NET._Framework_4.8-404040?style=for-the-badge&logo=c-sharp&logoColor=159BE1)
 
 #### About:
 A program created based on the standard Windows control. 
@@ -20,4 +20,4 @@ Allows you to open up to 10 or more simultaneous connections, as well as switch 
 * Added support for English language
 
 
-![https://google.com](https://img.shields.io/badge/Download_build_(v_2.0)-404040)
+![](https://img.shields.io/badge/Download_build_(v_2.0)-404040)
