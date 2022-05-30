@@ -5,8 +5,6 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RdpWindowsManager", "RdpWindowsManager\RdpWindowsManager.csproj", "{03F249F1-AAC5-47F7-85EB-807EB1411160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rynte.UI2", "..\WinForms Controls\Rynte.UI2\Rynte.UI2.csproj", "{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{03F249F1-AAC5-47F7-85EB-807EB1411160}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F249F1-AAC5-47F7-85EB-807EB1411160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F249F1-AAC5-47F7-85EB-807EB1411160}.Release|Any CPU.Build.0 = Release|Any CPU
-		{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{334FA13D-CDAD-4791-89E4-5374C3D6E8AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

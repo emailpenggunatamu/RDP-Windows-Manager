@@ -12,6 +12,8 @@ using System.Runtime.Serialization.Formatters.Soap;
 using System.Threading;
 using System.Windows.Forms;
 
+// Controls https://github.com/Rynte/WinForms-Controls
+
 namespace RdpWindowsManager.Forms
 {
    public partial class MainForm : Form
