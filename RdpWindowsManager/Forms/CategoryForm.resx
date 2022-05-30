@@ -166,7 +166,7 @@
     <value>txtName</value>
   </data>
   <data name="&gt;&gt;txtName.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;txtName.Parent" xml:space="preserve">
     <value>$this</value>
@@ -304,7 +304,7 @@
     <value>txtDescription</value>
   </data>
   <data name="&gt;&gt;txtDescription.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;txtDescription.Parent" xml:space="preserve">
     <value>$this</value>

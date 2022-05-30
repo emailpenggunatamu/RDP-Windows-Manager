@@ -36,9 +36,6 @@
     <ApplicationIcon>computer.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Rynte.WinForms.Controls">
-      <HintPath>..\..\Rynte.WinForms.Controls.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
@@ -96,6 +93,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\CategoryForm.resx">
       <DependentUpon>CategoryForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainForm.en-US.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -171,6 +169,12 @@
     <None Include="Resources\deleteIcon.png" />
     <None Include="Resources\connectIcon.png" />
     <None Include="Resources\addIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WinForms Controls\Rynte.UI2\Rynte.UI2.csproj">
+      <Project>{334fa13d-cdad-4791-89e4-5374c3d6e8ae}</Project>
+      <Name>Rynte.UI2</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

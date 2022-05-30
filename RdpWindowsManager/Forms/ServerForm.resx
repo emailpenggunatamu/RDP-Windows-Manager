@@ -163,7 +163,7 @@
     <value>7</value>
   </data>
   <data name="&gt;&gt;txtName.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>256, 11</value>
@@ -229,7 +229,7 @@
     <value>Flat</value>
   </data>
   <data name="&gt;&gt;txtDescription.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -355,7 +355,7 @@
     <value>Описание:</value>
   </data>
   <data name="&gt;&gt;txtPort.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -645,7 +645,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;txtHost.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>New Server</value>
@@ -711,7 +711,7 @@
     <value>Хост:</value>
   </data>
   <data name="&gt;&gt;txtPassword.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -729,7 +729,7 @@
     <value>2</value>
   </data>
   <data name="&gt;&gt;boxCategory.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteComboBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteComboBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Логин:</value>
@@ -774,7 +774,7 @@
     <value>18</value>
   </data>
   <data name="&gt;&gt;txtNewCategory.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Пароль:</value>
@@ -804,7 +804,7 @@
     <value>txtDescription</value>
   </data>
   <data name="&gt;&gt;txtUsername.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;label6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

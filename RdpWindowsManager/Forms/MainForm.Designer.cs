@@ -36,9 +36,9 @@
          this.btConnect = new System.Windows.Forms.Button();
          this.separator1 = new System.Windows.Forms.Panel();
          this.pnExplorer = new System.Windows.Forms.Panel();
-         this.serverView = new Rynte.WinForms.Controls.RynteTreeView();
+         this.serverView = new Rynte.UI2.RynteTreeView();
          this.imageList = new System.Windows.Forms.ImageList(this.components);
-         this.txtSearch = new Rynte.WinForms.Controls.RynteTextBox();
+         this.txtSearch = new Rynte.UI2.RynteTextBox();
          this.separator2 = new System.Windows.Forms.Panel();
          this.menuCategory = new System.Windows.Forms.ContextMenuStrip(this.components);
          this.btCategoryEdit = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,7 +47,7 @@
          this.btServerConnect = new System.Windows.Forms.ToolStripMenuItem();
          this.btServerEdit = new System.Windows.Forms.ToolStripMenuItem();
          this.btServerDelete = new System.Windows.Forms.ToolStripMenuItem();
-         this.serverTabControl = new Rynte.WinForms.Controls.RynteTabControl();
+         this.serverTabControl = new Rynte.UI2.RynteTabControl();
          this.tabPage1 = new System.Windows.Forms.TabPage();
          this.pnButtons.SuspendLayout();
          this.pnExplorer.SuspendLayout();
@@ -132,7 +132,7 @@
          // 
          this.txtSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
          this.txtSearch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-         this.txtSearch.BorderMode = Rynte.WinForms.Controls.Enums.BorderMode.Default;
+         this.txtSearch.BorderMode = Rynte.UI2.Enums.BorderMode.Default;
          this.txtSearch.BorderSize = 1;
          this.txtSearch.DefaultText = "";
          resources.ApplyResources(this.txtSearch, "txtSearch");
@@ -269,7 +269,7 @@
       private System.Windows.Forms.Button btConnect;
       private System.Windows.Forms.Panel separator1;
       private System.Windows.Forms.Panel pnExplorer;
-      private Rynte.WinForms.Controls.RynteTextBox txtSearch;
+      private Rynte.UI2.RynteTextBox txtSearch;
       private System.Windows.Forms.Panel separator2;
       private System.Windows.Forms.ContextMenuStrip menuCategory;
       private System.Windows.Forms.ToolStripMenuItem btCategoryEdit;
@@ -278,9 +278,9 @@
       private System.Windows.Forms.ToolStripMenuItem btServerConnect;
       private System.Windows.Forms.ToolStripMenuItem btServerEdit;
       private System.Windows.Forms.ToolStripMenuItem btServerDelete;
-      private Rynte.WinForms.Controls.RynteTreeView serverView;
+      private Rynte.UI2.RynteTreeView serverView;
       private System.Windows.Forms.ImageList imageList;
-      private Rynte.WinForms.Controls.RynteTabControl serverTabControl;
+      private Rynte.UI2.RynteTabControl serverTabControl;
       private System.Windows.Forms.TabPage tabPage1;
    }
 }

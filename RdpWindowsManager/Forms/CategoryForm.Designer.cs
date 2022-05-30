@@ -30,12 +30,12 @@
       {
          System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CategoryForm));
          this.label1 = new System.Windows.Forms.Label();
-         this.txtName = new Rynte.WinForms.Controls.RynteTextBox();
+         this.txtName = new Rynte.UI2.RynteTextBox();
          this.label2 = new System.Windows.Forms.Label();
          this.btColor = new System.Windows.Forms.Button();
          this.lbColor = new System.Windows.Forms.Label();
          this.label4 = new System.Windows.Forms.Label();
-         this.txtDescription = new Rynte.WinForms.Controls.RynteTextBox();
+         this.txtDescription = new Rynte.UI2.RynteTextBox();
          this.btSave = new System.Windows.Forms.Button();
          this.colorDialog = new System.Windows.Forms.ColorDialog();
          this.SuspendLayout();
@@ -49,7 +49,7 @@
          // 
          this.txtName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
          this.txtName.BorderColor = System.Drawing.Color.Gray;
-         this.txtName.BorderMode = Rynte.WinForms.Controls.Enums.BorderMode.Underline;
+         this.txtName.BorderMode = Rynte.UI2.Enums.BorderMode.Underline;
          this.txtName.BorderSize = 1;
          this.txtName.DefaultText = "";
          this.txtName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
@@ -89,7 +89,7 @@
          // 
          this.txtDescription.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(59)))), ((int)(((byte)(72)))));
          this.txtDescription.BorderColor = System.Drawing.Color.Gray;
-         this.txtDescription.BorderMode = Rynte.WinForms.Controls.Enums.BorderMode.Default;
+         this.txtDescription.BorderMode = Rynte.UI2.Enums.BorderMode.Default;
          this.txtDescription.BorderSize = 1;
          this.txtDescription.DefaultText = "";
          this.txtDescription.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(156)))), ((int)(((byte)(215)))));
@@ -143,12 +143,12 @@
       #endregion
 
       private System.Windows.Forms.Label label1;
-      private Rynte.WinForms.Controls.RynteTextBox txtName;
+      private Rynte.UI2.RynteTextBox txtName;
       private System.Windows.Forms.Label label2;
       private System.Windows.Forms.Button btColor;
       private System.Windows.Forms.Label lbColor;
       private System.Windows.Forms.Label label4;
-      private Rynte.WinForms.Controls.RynteTextBox txtDescription;
+      private Rynte.UI2.RynteTextBox txtDescription;
       private System.Windows.Forms.Button btSave;
       private System.Windows.Forms.ColorDialog colorDialog;
    }

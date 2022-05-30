@@ -296,7 +296,7 @@
     <value>serverView</value>
   </data>
   <data name="&gt;&gt;serverView.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTreeView, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTreeView, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;serverView.Parent" xml:space="preserve">
     <value>pnExplorer</value>
@@ -326,7 +326,7 @@
     <value>txtSearch</value>
   </data>
   <data name="&gt;&gt;txtSearch.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTextBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTextBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;txtSearch.Parent" xml:space="preserve">
     <value>pnExplorer</value>
@@ -488,7 +488,7 @@
     <value>serverTabControl</value>
   </data>
   <data name="&gt;&gt;serverTabControl.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteTabControl, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteTabControl, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;serverTabControl.Parent" xml:space="preserve">
     <value>$this</value>

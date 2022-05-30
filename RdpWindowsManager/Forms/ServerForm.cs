@@ -1,6 +1,6 @@
 ﻿using RdpWindowsManager.Models;
 using RdpWindowsManager.Properties;
-using Rynte.WinForms.Controls;
+using Rynte.UI2;
 using System;
 using System.Collections.Generic;
 using System.Globalization;

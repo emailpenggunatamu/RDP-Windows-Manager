@@ -163,7 +163,7 @@
     <value>boxLanguage</value>
   </data>
   <data name="&gt;&gt;boxLanguage.Type" xml:space="preserve">
-    <value>Rynte.WinForms.Controls.RynteComboBox, Rynte.WinForms.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Rynte.UI2.RynteComboBox, Rynte.UI2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;boxLanguage.Parent" xml:space="preserve">
     <value>$this</value>

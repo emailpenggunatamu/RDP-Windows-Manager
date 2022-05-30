@@ -30,7 +30,7 @@
       {
          System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingForm));
          this.label1 = new System.Windows.Forms.Label();
-         this.boxLanguage = new Rynte.WinForms.Controls.RynteComboBox();
+         this.boxLanguage = new Rynte.UI2.RynteComboBox();
          this.btSave = new System.Windows.Forms.Button();
          this.SuspendLayout();
          // 
@@ -82,7 +82,7 @@
       #endregion
 
       private System.Windows.Forms.Label label1;
-      private Rynte.WinForms.Controls.RynteComboBox boxLanguage;
+      private Rynte.UI2.RynteComboBox boxLanguage;
       private System.Windows.Forms.Button btSave;
    }
 }
